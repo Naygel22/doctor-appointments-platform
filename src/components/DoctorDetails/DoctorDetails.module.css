@@ -1,0 +1,33 @@
+.doctorDetailsBlock {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.doctorName {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 0;
+}
+
+.demoCall {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 16px 0 8px;
+}
+
+.timerBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: grey;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,34 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Hans",
+      "surname": "Müller",
+      "imgSrc": "src/assets/images/doctor1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Sofia",
+      "surname": "Garcia",
+      "imgSrc": "src/assets/images/doctor2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "John",
+      "surname": "O'Connor",
+      "imgSrc": "src/assets/images/doctor3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Marie",
+      "surname": "Dubois",
+      "imgSrc": "src/assets/images/doctor4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Hiroshi",
+      "surname": "Yamamoto",
+      "imgSrc": "src/assets/images/doctor5.jpg"
+    }
+  ]
+}
