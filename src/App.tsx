@@ -4,21 +4,20 @@ import './App.css'
 import { Doctor } from './components/Doctor'
 import ErrorBoundary from './components/ErrorBoundary'
 import { DoctorDetails } from './components/DoctorDetails/DoctorDetails';
-import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
-import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFnsV3'
-import { LocalizationProvider } from '@mui/x-date-pickers';
+import { Calendar } from './components/Calendar/Calendar';
+
 
 function App() {
   const [chosenDoctor, setChosenDoctor] = useState(null);
+  const [value, setValue] = useState();
+
+  console.log(value)
 
   return (
     <ErrorBoundary>
       <Doctor setChosenDoctor={setChosenDoctor} />
       {chosenDoctor && <DoctorDetails doctorId={chosenDoctor} />}
-      <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <DateCalendar views={['day']} />
-      </LocalizationProvider>
-
+      <Calendar />
     </ErrorBoundary>
   )
 }
