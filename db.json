@@ -68,5 +68,6 @@
       "time": "05:00 PM",
       "isBooked": false
     }
-  ]
+  ],
+  "bookings": []
 }
